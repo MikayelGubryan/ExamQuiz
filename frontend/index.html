@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head-title"><h1><span>Quiz Game</span></h1></div>
+    <div id="buttons-container">   
+        <button class="button-85" role="button">Admin</button>
+        <button class="button-85" role="button">User</button>
+    </div>
+
+    <script src="index.js"></script> 
+    <script>
+        document.getElementsByClassName('button-85')[0].addEventListener('click', function(){
+            window.location.href = "./src/admin/admin.html"; 
+        });
+        document.getElementsByClassName('button-85')[1].addEventListener("click", function(){
+            window.location.href = "./src/user/user.html";
+        });
+    </script>
+</body>
+</html>
+

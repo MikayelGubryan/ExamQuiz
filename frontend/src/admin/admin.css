@@ -1,0 +1,52 @@
+body {
+    background-image: url(../../images/testPassing.png);
+    background-size: cover;
+}
+
+#head-h1 {
+    border: 1px solid;
+    width: 200px;
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 10px;
+}
+
+#head-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#label-container {
+    margin-top: 30px; 
+}
+
+#theme-input {
+    width: 600px;
+    height: 40px;
+    color: black;
+}
+
+#theme-input-second {
+    width: 600px;
+    height: 40px;
+    color: black;
+
+}
+
+#generate-button {
+    width: 250px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(255, 255, 255, 0.836);
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+

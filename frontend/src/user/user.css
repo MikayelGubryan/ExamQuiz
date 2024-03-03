@@ -1,0 +1,122 @@
+body {
+    background-image: url(../../images/randomQuestions.png);
+    background-size: cover;
+}
+.custom-input {
+    position: relative;
+    width: 300px;
+  }
+  
+  .custom-input input[type="text"] {
+    padding-right: 20px; 
+  }
+  
+  .custom-input .checkbox-label {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .custom-input .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.5); 
+  }
+
+#theme-input-first {
+    width: 800px;
+    height: 100px;
+}
+
+.label-container {
+    margin-top: 30px; 
+}
+
+.theme-input {
+    width: 600px;
+    height: 50px;
+    color: black;
+}
+
+.theme-input-second {
+    width: 600px;
+    height: 40px;
+    color: black;
+
+}
+
+#generate-button {
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(255, 255, 255, 0.836);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 60px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+#head-checkbox {
+    margin-top: 20px;
+    width: 700px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  display: none;
+  
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+  display: block;
+}
